@@ -13,10 +13,12 @@ const sourceObject = {
   num: 42,
   bool: true,
   str: 'some text',
-  log: console.log,
+  log: console.log
 }
 
 // Your code :
+
+const get = style => sourceObject[style]
 
 //* Begin of tests
 const assert = require('assert')

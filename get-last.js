@@ -9,7 +9,9 @@
  */
 
 // Your code :
+const getLast = style => style[style.length - 1]
 
+console.log(getLast('sara'))
 //* Begin of tests
 const assert = require('assert')
 

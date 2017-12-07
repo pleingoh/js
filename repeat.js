@@ -8,7 +8,12 @@
  *
  * @next sentence
  */
-
+const aff = 'a'
+const repeat = (aff, b) => {
+  while (aff < b) {
+    a++
+  }
+}
 //* Begin of tests
 const assert = require('assert')
 

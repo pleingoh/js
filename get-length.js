@@ -10,6 +10,10 @@
 
 // Your code :
 
+const getLength = style => style.length
+
+console.log(getLength('ami'))
+
 //* Begin of tests
 const assert = require('assert')
 

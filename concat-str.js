@@ -8,7 +8,9 @@
  */
 
 // Your code :
-
+const a = 'yolo'
+const b = 'swag'
+const concatStr = (a, b) => a + b
 //* Begin of tests
 const assert = require('assert')
 

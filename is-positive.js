@@ -6,8 +6,13 @@
  *
  * @next sign
  */
+const isPositive = a => {
+  if (a > 0) {
+    return true
+  }
 
-
+  return false
+}
 
 //* Begin of tests
 const assert = require('assert')

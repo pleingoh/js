@@ -9,7 +9,9 @@
  */
 
 // Your code :
+const getFirst = style => style[0]
 
+console.log(getFirst('ami'))
 //* Begin of tests
 const assert = require('assert')
 
