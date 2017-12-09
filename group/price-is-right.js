@@ -12,7 +12,22 @@
  * Create a function `getCostMl` that takes a quantity in milliliters
  * and return the cost (and applying the 3 for 1500 FCFA discount)
  */
+const cost = 650
+const ml = 500
+const n = 1
 
+const getCostCount = a => {
+  const cost = 650
+
+  if (n == 1) {
+    console.log('vous nous devez:', cost, 'cfa')
+    console.log('vous avez pris:', ml, 'ml')
+  }
+}
 
 // You must write your own tests
-throw Error('No tests !')
+const assert = require('assert')
+
+assert.strictEqual(typeof getCostCount, 'function')
+assert.strictEqual(getCostCount.length, 1)
+assert.deepStrictEqual(getCostCount())

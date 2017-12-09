@@ -16,7 +16,28 @@
  *
  * Utilisez console.log pour afficher.
  */
+const fizzBuzz = a => {
+  let b = 1
 
+  while (b <= 100) {
+    if (b % 3 == 0) {
+      console.log('fizz')
+    } else if (b % 5 == 0) {
+      console.log('buzz')
+    }
+    if ((b % 3 == 0) & (b % 5 == 0)) {
+      console.log('fizzbuzz')
+    }
+    console.log(b)
+    b++
+  }
+}
 
 // You must write your own tests
-throw Error('No tests !')
+const assert = require('assert')
+
+assert.strictEqual(typeof fizzBuzz, 'function')
+assert.strictEqual(fizzBuzz.length, 1)
+assert.deepStrictEqual(fizzBuzz())
+assert.deepStrictEqual(fizzBuzz())
+assert.deepStrictEqual(fizzBuzz())
